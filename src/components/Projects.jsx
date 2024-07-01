@@ -12,7 +12,7 @@ const Projects = () => {
     },
     {
       name: 'Portfolio',
-      imageUrl: `${process.env.PUBLIC_URL}/Pictures/portfolio.png`,
+      imageUrl: `${process.env.PUBLIC_URL}/Pictures/portfoliopic.png`,
       githubUrl: 'https://github.com/BSC-9/Portfolio',
     },
     {
