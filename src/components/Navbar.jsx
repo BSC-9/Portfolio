@@ -31,7 +31,7 @@ const Navbar = () => {
       >
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="text-3xl font-bold">Sasank</div>
-          <div className="hidden md:flex space-x-10 ml-auto text-lg items-center"> {/* Updated flex properties */}
+          <div className="hidden md:flex space-x-10 ml-auto text-lg items-center"> 
             <a
               className="hover:text-cyan-600 cursor-pointer"
               onClick={() => scroll("hero")}
