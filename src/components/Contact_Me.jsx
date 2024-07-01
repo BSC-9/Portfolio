@@ -50,7 +50,7 @@ const Contact_Me = () => {
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row gap-8">
-          {/* Left side content */}
+    
           <div className="w-full md:w-1/2 order-2 md:order-1">
             <h2 className="text-3xl font-poppins font-extrabold text-white mb-6 text-center md:text-left">
               Let's{" "}
@@ -124,7 +124,7 @@ const Contact_Me = () => {
             </div>
           </div>
 
-          {/* Right side content */}
+
           <div className="w-full md:w-1/2 order-1 md:order-2">
             <h2 className="text-3xl font-poppins font-extrabold font-bold text-white mb-6 text-center md:text-left">
               Message{" "}
