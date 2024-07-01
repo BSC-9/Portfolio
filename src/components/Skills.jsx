@@ -11,7 +11,7 @@ import mysql from '../Pictures/mysql.png';
 
 const Skills = () => {
   return (
-    <section id="skilla">
+    <section id="skills">
     <div className="bg-gray-900 py-12">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl lg:text-6xl font-bold bg-gradient-to-r from-red-900 to-pink-500 bg-clip-text text-transparent text-center mb-12 lg:pb-12">Area of Skills</h2>

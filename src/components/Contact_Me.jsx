@@ -19,10 +19,10 @@ const Contact_Me = () => {
 
     emailjs
       .send(
-        "service_Portfolio",
-        "template_dlpgb7d",
+        process.env.REACT_APP_SERVER_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
         formData,
-        "JydZ1tFma12PRJ_zv"
+        process.env.REACT_APP_USER_ID
       )
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
