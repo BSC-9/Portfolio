@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import Balajipic from '../Pictures/Balajipic.png';
 
 const Hero = () => {
   const [loaded, setLoaded] = useState(false);
@@ -34,7 +33,7 @@ const Hero = () => {
             <div className={`w-full lg:w-auto flex justify-center lg:justify-end order-1 lg:mr-20 lg:pr-20 lg:order-2 mt-8 lg:mt-10 lg:ml-20 transition-opacity duration-1000 ${loaded ? 'opacity-100' : 'opacity-0'}`}>
               <div className="w-96 h-96 lg:w-128 lg:h-128 overflow-hidden rounded-full">
                 <img
-                  src={Balajipic}
+                  src={`${process.env.PUBLIC_URL}/Pictures/balajipic.png`}
                   alt="Your Photo"
                   className={`w-full h-full object-cover transition-opacity duration-1000 ${loaded ? 'opacity-100' : 'opacity-0'}`}
                 />

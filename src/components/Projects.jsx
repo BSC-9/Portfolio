@@ -2,31 +2,27 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import portfoliopic from '../Pictures/portfoliopic.png';
-import Accident from '../Pictures/Accident.jpeg';
-import SIH from '../Pictures/SIH.jpeg';
-import law from '../Pictures/law.png';
 
 const Projects = () => {
   const projects = [
     {
       name: 'Accident Detection and Alarming System',
-      imageUrl: Accident,
+      imageUrl: `${process.env.PUBLIC_URL}/Pictures/Accident.jpeg`,
       githubUrl: 'https://github.com/BSC-9/Accident_Detection_and_alarming_system',
     },
     {
       name: 'Portfolio',
-      imageUrl: portfoliopic,
+      imageUrl: `${process.env.PUBLIC_URL}/Pictures/portfolio.png`,
       githubUrl: 'https://github.com/BSC-9/Portfolio',
     },
     {
       name: 'SIH_INTERNAL-2023_DIGITAL_TWIN',
-      imageUrl: SIH,
+      imageUrl: `${process.env.PUBLIC_URL}/Pictures/SIH.jpeg`,
       githubUrl: 'https://github.com/BSC-9/SIH_INTERNAL-2023_DIGITAL_TWIN',
     },
     {
       name: 'Client-Lawyer Case Type Classification',
-      imageUrl: law,
+      imageUrl: `${process.env.PUBLIC_URL}/Pictures/law.png`,
       githubUrl: 'https://github.com/BSC-9/Client-Lawyer-case-type-classification',
     },
   ];

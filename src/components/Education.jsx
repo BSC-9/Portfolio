@@ -1,6 +1,4 @@
 import React from 'react';
-import srm from '../Pictures/srm.png';
-import vaels from '../Pictures/vaels.jpeg';
 
 const Education = () => {
   return (
@@ -19,7 +17,7 @@ const Education = () => {
               <p className="text-xl text-gray-300 mb-2">CGPA: 9.25 till 2nd year</p>
             </div>
             <div className="ml-6">
-              <img src={srm} alt="SRM Institute of Science & Technology" className="rounded-lg" />
+              <img src={`${process.env.PUBLIC_URL}/Pictures/srm.png`} alt="SRM Institute of Science & Technology" className="rounded-lg" />
             </div>
           </div>
         </div>
@@ -31,7 +29,7 @@ const Education = () => {
               <p className="text-xl text-gray-300 mb-2">2019-2022</p>
             </div>
             <div className="ml-6">
-              <img src={vaels} alt="Vaels International School" className="rounded-lg" />
+              <img src={`${process.env.PUBLIC_URL}/Pictures/vaels.jpeg`} alt="Vaels International School" className="rounded-lg" />
             </div>
           </div>
         </div>
